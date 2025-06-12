@@ -1,0 +1,51 @@
+.info-section {
+    min-height: 100%;
+    flex: 1;
+    border-radius: inherit;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    padding: 0.5rem 2rem;
+    /* gap: 1rem; */
+}
+
+.section-title {
+    align-self: center;
+    font-size: 1.8rem;
+}
+
+.info-form {
+    font-size: 1.25rem;
+    padding: 0.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+#work-info-form {
+    overflow-y: auto;
+}
+
+.info-form input, .info-form select, .info-form textarea {
+    min-width: 75%;
+    min-height: 1.75rem;
+    border-radius: 0.5rem;
+    outline: none;
+    /* border: 1px solid grey; */
+    border: none;
+    padding: 0 0.5rem;
+}
+
+.submit-button {
+    height: 2rem;
+    width: 6rem;
+    align-self: center;
+    border-radius: 0.25rem;
+    border: 1px solid grey;
+}
+
+.date {
+    display: flex;
+    gap: 1rem;
+}
